@@ -1,0 +1,42 @@
+<style>
+			#rentalprices {
+				color: Red;
+			}
+			  table, th, td {
+                border: 1px solid;
+            }
+            
+            table{
+                width:100%;
+                border-collapse: collapse;
+            }
+            
+            td{
+                text-align: center;
+				}
+			h4 {
+				text-align: center;
+			}
+			body {
+				background-color: rgb(76, 173, 123) 
+			
+			}
+			
+			h1 {
+				font-family: Comic Sans MS
+			}
+			
+			h3 {
+				color: rgb(56, 122, 201);
+				font-size: 25px;
+				text-align: center
+			}
+			.ending{
+				color: white
+			}
+			
+			#Activities{
+				font-family: Comic Sans MS;
+				font-size: 16px;
+			}
+		</style>
