@@ -279,8 +279,8 @@
 			<hr>
 			<h3>Please provide website feedback</h3>:
 				<form action="pgiyanani@student.antilles.vi" method="post" enctype="text/plain">
-					Student Name:<br><input type="text" name="studentname"> <br>
-					Student Email: <br> <input type="email" name="studentemail"> <br>
+					Student Name:<span style="color:red">*</span>span<br><input type="text" name="studentname" required> <br>
+					Student Email: <br> <input type="email" name="studentemail" required> <br>
 					Date of Birth <br> <input type="date" name="dateofbirth"> <br>
 					Favorite Island: <br>
 					STT <input type="radio" name="favisland">
@@ -288,13 +288,15 @@
 					STJ <input type="radio" name="favisland">
 					Water Island <input type="radio" name="favisland">
 					<br>
-						<input type="reset" value="Reset">
-						<input type="submit" value="Send">
+						
 					<br>Did you pack?<br>
 					Sunscreen<input type="checkbox" name="packed" value="Sunscreen">
 					Towel<input type="checkbox" name="packed" value="Towel">
 					Bathing Suit<input type="checkbox" name="packed" value="Bathingsuit">
 					Flip Flops<input type="checkbox" name="packed" value="Flipflops">
+
+						<input type="reset" value="Reset">
+						<input type="submit" value="Send">
 				</form> 
 			<p class="ending">If there are any additional inquiries feel free to reach out: <a href="pgiyanani@student.antilles.vi">Send email </a></p>
 			<a class="weatherwidget-io" href="https://forecast7.com/en/18d34n64d95/st-thomas/" data-label_1="ST. THOMAS" data-label_2="WEATHER" data-theme="original" >ST. THOMAS WEATHER</a>
